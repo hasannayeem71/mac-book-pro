@@ -1,0 +1,20 @@
+/* button style */
+
+.apple-btn {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.apple-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* hr style */
+
+.hr-style {
+    border: 2px solid;
+    border-color: black;
+}
