@@ -19,7 +19,7 @@ function setExtraCost(price, setPlaceId) {
 function checkPromo() {
     const inputField = document.getElementById('promo-input');
     const inputText = inputField.value;
-    if (inputText == 'stevekaku') {
+    if (inputText == 'cse414') {
         let totalAmount = parseInt(document.getElementById('total-price').innerText);
         totalAmount -= totalAmount * 0.2;
         document.getElementById('total-after-promo').innerText = totalAmount;
